@@ -1,0 +1,91 @@
+/** @format */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 20px;
+	color: #f5f2f0;
+	text-align: center;
+}
+
+#namelogo {
+	font-weight: bold;
+	color: purple;
+}
+
+/* Responsive Image */
+.hero_img {
+	max-width: 60%;
+	height: auto;
+}
+
+/* Loader */
+.loader {
+	font-weight: bold;
+	color: red;
+}
+
+/* Custom Button */
+.btn-custom {
+	background-color: #c37afa;
+	color: #f5f2f0;
+	font-weight: bold;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: 20px;
+	width: 100%;
+	max-width: 300px;
+}
+
+/* Output Text */
+pre {
+	background: #c37afa;
+	padding: 10px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	text-align: left;
+}
+
+/* Footer */
+.footer {
+	background: #f8f9fa;
+	padding: 20px 0;
+	font-size: 14px;
+	color: #333;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.footer a {
+	color: purple;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+/* Media Query untuk HP */
+@media (max-width: 768px) {
+	body {
+		padding: 10px;
+	}
+
+	.hero_img {
+		max-width: 90%;
+	}
+
+	.btn-custom {
+		width: 90%;
+	}
+
+	.footer {
+		font-size: 12px;
+		padding: 10px;
+	}
+}
